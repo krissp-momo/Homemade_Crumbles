@@ -1,0 +1,9 @@
+.contact-info {
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}

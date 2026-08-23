@@ -1,0 +1,11 @@
+.about {
+    padding: 4rem 10%;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the text block on the screen */
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}

@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homemade Crumbles | Home</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <!-- This links your global/home CSS -->
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <!-- This relative path travels from index.html into the images folder -->
-            <img src="images/logo.JPEG" alt="Homemade Crumbles Logo" width="50" height="50">
-            Homemade Crumbles
+            <!-- Ensure your logo extension matches what you have in the images folder (.jpeg) -->
+            <img src="images/logo.jpeg" alt="Homemade Crumbles Logo">
+            <span>Homemade Crumbles</span>
         </div>
         <nav>
             <ul class="nav-links">
@@ -28,7 +30,9 @@
             <div class="hero-content">
                 <h1>Baked with Love, Crumbled with Joy</h1>
                 <p>Experience the homemade goodness in every bite.</p>
-                <button class="cta-btn">Order Now</button>
+                
+                <!-- The button is now a working anchor link pointing to the menu page -->
+                <a href="menu.html" class="cta-btn">Order Now</a>
             </div>
         </section>
     </main>
